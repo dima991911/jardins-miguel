@@ -1,0 +1,418 @@
+*::-webkit-input-placeholder {
+	color: #666;
+	opacity: 1;
+}
+*:-moz-placeholder {
+	color: #666;
+	opacity: 1;
+}
+*::-moz-placeholder {
+	color: #666;
+	opacity: 1;
+}
+*:-ms-input-placeholder {
+	color: #666;
+	opacity: 1;
+}
+
+body input:focus:required:invalid,
+body textarea:focus:required:invalid {
+	
+}
+body input:required:valid,
+body textarea:required:valid {
+	
+}
+body {
+	font-family: "RobotoRegular", sans-serif;
+	font-size: 16px;
+	min-width: 320px;
+	position: relative;
+}
+.hidden {
+	display: none;
+}
+.carousel img {
+	width: 100%;
+	height: auto;
+}
+.parallax {
+	background-attachment: fixed;
+	background-position: 50% 0;
+	position: relative;
+}
+.loader {
+    background: none repeat scroll 0 0 #ffffff;
+    bottom: 0;
+    height: 100%;
+    left: 0;
+    position: fixed;
+    right: 0;
+    top: 0;
+    width: 100%;
+    z-index: 9999;
+}
+.loader_inner {
+  
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-color: #fff;
+    height: 60px;
+    width: 60px;
+    margin-top: -30px;
+    margin-left: -30px;
+    left: 50%;
+    top: 50%;
+    position: absolute;
+}
+section,
+.main_head {
+	position: relative;
+}
+.main_head {
+	min-height: 500px;
+}
+
+.logo {
+	display: block;
+	margin-top: 10px;
+}
+.logo_descr p {
+	position: relative;
+	font-size: 30px;
+	color: #f2f2f2;
+	text-shadow: 0 0 15px rgba(0, 0, 0, 5);
+}
+.logo_descr p span {
+	font-weight: bold;
+}
+.toggle_mnu {
+	float: right;
+	background-color: rgba(242, 242, 242, 0.9);
+	border: none;
+	opacity: 40;
+	width: 60px;
+	height: 60px;
+	right: 20px;
+	top: 0;
+	margin-top: 20px;
+	position: fixed;
+	z-index: 5000;
+}
+.sandwich {
+	display: block;
+		
+}
+.top_mnu {
+	position: fixed;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(0, 0, 0, .9);
+	z-index: 10;
+	right: 0;
+	top: 0;
+	display: none;
+}
+.top_mnu ul {
+	margin-top: 100px;
+	text-align: center;
+	padding: 0;
+
+}
+
+.top_mnu ul li {
+	list-style-type: none;
+	padding: 0;
+	margin: 0;
+
+}
+
+
+.top_mnu ul li a {
+	color: #f2f2f2;
+	display: block;
+	padding: 10px 0;
+	font-size: 20px;
+	margin: 0 auto;
+	position: relative;
+	
+
+
+}
+.top_mnu ul li a:hover {
+	color: #14B49A;
+	background-color: rgba(26, 26, 26, 0.9);
+	margin: 0 auto;
+	width: 100%;
+	z-index: 4000;
+}
+.top_social ul {
+	padding: 0;
+	margin: 30px 0;
+}
+
+.top_social li {
+	list-style-type: none;
+	display: inline-block;
+	padding-right: 25px;
+}
+.top_social li a {
+	font-size: 30px;
+	color: #F2F2F2;
+	text-shadow: 0 0 5px rgba(0, 0, 0, 15);
+	z-index: 2;
+}
+.top_social li a:hover {
+	color: #14B49A;
+	z-index: 21;
+
+}
+.top_phone {
+	float: right;
+	font-size: 30px;
+	color: #F2F2F2;
+	text-shadow: 0 0 5px rgba(0, 0, 0, 15);
+	font-weight: bold;
+	vertical-align: middle;
+	z-index: 3;
+
+}
+.top_phone span {
+	font-weight: normal;
+	color: #14B49A;
+	z-index: 4;
+
+}
+
+.top_text {	
+	padding-top: 0;
+	margin-top: 0;
+	
+}
+
+.top_text h1 {
+	position: relative;
+	font-size: 55px;
+	color: #f2f2f2;
+	padding: 20px;
+	margin-top: 0 auto;
+	background-color: rgba(0, 0, 0, 0.3);
+	text-shadow: 0 0 15px rgba(0, 0, 0, 5);
+	border: 7px #14B49A solid;
+	text-align: center;
+}
+.top_text h1 span {
+	font-family: "RobotoBold";
+}
+
+.top_text p {
+	font-size: 30px;
+	color: #F2F2F2;
+	background-color: rgba(0, 0, 0, 0.3);
+	text-shadow: 0 0 15px rgba(0, 0, 0, 5);
+	text-align: center;
+	
+}
+.top_form {
+	display: block;
+	width: 215px;
+	height: 35px;
+	border: 3px #f2f2f2 solid;
+	border-radius: 10px;
+	background-color: #14B49A;
+	margin: 30px auto;
+
+}
+.top_form:hover {
+	display: block;
+	width: 215px;
+	height: 35px;
+	border: 3px #14B49A solid;
+	border-radius: 10px;
+	background-color: #f2f2f2;
+	margin: 30px auto;
+
+}
+.top_form a {
+	font-size: 20px;
+	color: #1a1a1a;
+	text-align: center;
+	font-weight: bold;
+	margin: 0;
+	padding: 0;
+}
+
+section {
+	padding-top: 10px;
+}
+#nosotros {
+	min-height: 350px;
+	background-color: #f2f2f2;
+}
+#nosotros h2 {
+	font-size: 40px;
+	text-align: center;
+	color: #184039;
+}
+section h2 span {
+	font-family: "RobotoBold";
+}
+
+#nosotros p {
+	text-align: justify;
+	font-size: 16px;
+	line-height: 30px; 
+}
+#servicios {
+	min-height: 320px;
+	background-color: #184039;
+	padding-bottom: 30px;
+}
+#servicios h2 {
+	font-size: 40px;
+	text-align: center;
+	color: #f2f2f2;
+}
+#servicios ul {
+	margin: 0;
+	text-align: center;
+	
+}
+#servicios li {
+	list-style-type: none;
+	font-size: 20px;
+	font-weight: bold;
+	color: #1a1a1a;
+	background-color: #f2f2f2;
+	text-align: center;
+	width: 460px;
+	height: 30px;
+	border-radius: 10px;
+	box-shadow: 0 0 5px rgba(0, 0, 0, .5);
+}
+.right {
+	float: right;
+}
+.photo img {
+	max-width: 100%;
+	border-top: 7px #14B49A solid;
+	margin-top: 10px;
+}
+#trabajos {
+	min-height: 800px;
+	background-color: #f2f2f2;
+	padding-bottom: 30px;
+}
+#trabajos h2 {
+	font-size: 40px;
+	text-align: center;
+	color: #184039;
+}
+#porque {
+	min-height: 320px;
+	background-color: #184039;
+	padding-bottom: 30px;
+}
+#porque h2 {
+	font-size: 40px;
+	text-align: center;
+	color: #f2f2f2;
+}
+.mejor {
+	text-align: center;
+	
+}
+.mejor h3 {
+	color:#f2f2f2;
+}
+.mejor p {
+	color: #f2f2f2;
+}
+#como {
+	min-height: 250px;
+	background-color: #f2f2f2;
+	padding-bottom: 30px;
+}
+#como h2 {
+	font-size: 40px;
+	text-align: center;
+	color: #184039;
+}
+.como p {
+	color: #1a1a1a;
+	font-weight: bold;
+}
+.como {
+	text-align: center;
+	
+}
+#contactos {
+	min-height: 320px;
+	background-color: #184039;
+	padding-bottom: 30px;
+}
+#contactos h2 {
+	font-size: 40px;
+	text-align: center;
+	color: #f2f2f2;
+}
+.contactos ul {
+	float: left;
+	padding: 0;
+	margin-top: 0;
+}
+.contactos li{
+	list-style-type: none;
+	font-size: 16px;
+	color: #f2f2f2;
+	text-align: left;
+
+}
+.contactos ul li a {
+	color: #f2f2f2;
+	font-size: 30px;
+	text-align: center;
+	vertical-align: middle;
+	padding-right: 10px;
+}
+.contactos ul li a:hover {
+	color: #14B49A;
+	font-weight: bold;
+	margin-bottom: 250px; 
+}
+input {
+	width: 280px;
+	height: 30px;
+	margin-bottom: 10px;
+	border-radius: 10px;
+}
+form button {
+
+	display: block;
+	width: 280px;
+	height: 40px;
+	border: 3px #f2f2f2 solid;
+	border-radius: 10px;
+	background-color: #14B49A;
+	margin: 0;
+
+}
+form button:hover {
+	border: 3px #14B49A solid;
+	background-color: #f2f2f2;
+	
+
+}
+form button p {
+	font-size: 20px;
+	color: #1a1a1a;
+	text-align: center;
+	font-weight: bold;
+	margin: 0;
+	padding: 0;
+}
+
+footer {
+	text-align: center;
+	
+}
